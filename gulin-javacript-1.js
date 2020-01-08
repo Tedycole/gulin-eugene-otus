@@ -18,7 +18,7 @@ function AllSum(...arguments) {
           return sum;
 
   } else {
-    for (let arg of arguments) argum.push(arg)
+    for (let arg of arguments) argum.push(arg);
 //Вывод значений в консоль, для проверки записи в объект
     console.log(argum);
     console.log(arguments);
