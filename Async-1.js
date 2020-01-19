@@ -11,6 +11,6 @@ setTimeout(() => resolve(2), 1000)
 
 async function promiseReduce(asyncFunctions, reduce, initialValue) {
 
-return await Promise.resolve().then(reduce());
+      return await Promise.resolve().then(reduce());
 
 }
